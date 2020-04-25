@@ -7,10 +7,10 @@ package japanese
 import (
 	"unicode/utf8"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/internal"
-	"golang.org/x/text/encoding/internal/identifier"
-	"golang.org/x/text/transform"
+	"github.com/xhit/encoding"
+	"github.com/xhit/encoding/internal"
+	"github.com/xhit/encoding/internal/identifier"
+	"github.com/xhit/transform"
 )
 
 // ISO2022JP is the ISO-2022-JP encoding.

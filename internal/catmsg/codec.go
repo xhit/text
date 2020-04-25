@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"golang.org/x/text/language"
+	"github.com/xhit/language"
 )
 
 // A Renderer renders a Message.

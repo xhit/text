@@ -7,8 +7,8 @@ package number
 import (
 	"fmt"
 
-	"golang.org/x/text/internal/number"
-	"golang.org/x/text/language"
+	"github.com/xhit/internal/number"
+	"github.com/xhit/language"
 )
 
 // An Option configures a Formatter.

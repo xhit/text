@@ -7,7 +7,7 @@ package norm_test
 import (
 	"fmt"
 
-	"golang.org/x/text/unicode/norm"
+	"github.com/xhit/unicode/norm"
 )
 
 func ExampleForm_NextBoundary() {

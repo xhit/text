@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/internal"
-	"golang.org/x/text/encoding/internal/enctest"
-	"golang.org/x/text/transform"
+	"github.com/xhit/encoding"
+	"github.com/xhit/encoding/internal"
+	"github.com/xhit/encoding/internal/enctest"
+	"github.com/xhit/transform"
 )
 
 func dec(e encoding.Encoding) (dir string, t transform.Transformer, err error) {

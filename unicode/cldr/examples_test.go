@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/unicode/cldr"
+	"github.com/xhit/internal/gen"
+	"github.com/xhit/unicode/cldr"
 )
 
 func ExampleDecoder() {

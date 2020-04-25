@@ -1,8 +1,8 @@
 package main
 
 import (
-	"golang.org/x/text/language"
-	"golang.org/x/text/message"
+	"github.com/xhit/language"
+	"github.com/xhit/message"
 )
 
 // In this test, lowercap strings are ones that need to be picked up for

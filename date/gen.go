@@ -12,10 +12,10 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/text/internal/cldrtree"
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/language"
-	"golang.org/x/text/unicode/cldr"
+	"github.com/xhit/internal/cldrtree"
+	"github.com/xhit/internal/gen"
+	"github.com/xhit/language"
+	"github.com/xhit/unicode/cldr"
 )
 
 var (

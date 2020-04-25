@@ -12,9 +12,9 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/gen/bitfield"
-	"golang.org/x/text/internal/ucd"
+	"github.com/xhit/internal/gen"
+	"github.com/xhit/internal/gen/bitfield"
+	"github.com/xhit/internal/ucd"
 )
 
 var (

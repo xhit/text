@@ -5,7 +5,7 @@
 package main
 
 import (
-	"golang.org/x/text/message/pipeline"
+	"github.com/xhit/message/pipeline"
 )
 
 // TODO:

@@ -7,9 +7,9 @@ package catalog
 import (
 	"sync"
 
-	"golang.org/x/text/internal"
-	"golang.org/x/text/internal/catmsg"
-	"golang.org/x/text/language"
+	"github.com/xhit/internal"
+	"github.com/xhit/internal/catmsg"
+	"github.com/xhit/language"
 )
 
 // TODO:

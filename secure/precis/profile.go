@@ -9,12 +9,12 @@ import (
 	"errors"
 	"unicode/utf8"
 
-	"golang.org/x/text/cases"
-	"golang.org/x/text/language"
-	"golang.org/x/text/runes"
-	"golang.org/x/text/secure/bidirule"
-	"golang.org/x/text/transform"
-	"golang.org/x/text/width"
+	"github.com/xhit/cases"
+	"github.com/xhit/language"
+	"github.com/xhit/runes"
+	"github.com/xhit/secure/bidirule"
+	"github.com/xhit/transform"
+	"github.com/xhit/width"
 )
 
 var (

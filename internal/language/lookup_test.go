@@ -7,7 +7,7 @@ package language
 import (
 	"testing"
 
-	"golang.org/x/text/internal/tag"
+	"github.com/xhit/internal/tag"
 )
 
 func b(s string) []byte {

@@ -19,8 +19,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/transform"
+	"github.com/xhit/internal/testtext"
+	"github.com/xhit/transform"
 )
 
 var (
@@ -954,7 +954,7 @@ func TestLinking(t *testing.T) {
 	const prog = `
 	package main
 	import "fmt"
-	import "golang.org/x/text/unicode/norm"
+	import "github.com/xhit/unicode/norm"
 	func main() { fmt.Println(norm.%s) }
 	`
 

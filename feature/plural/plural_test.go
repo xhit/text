@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/language"
+	"github.com/xhit/language"
 )
 
 func TestGetIntApprox(t *testing.T) {

@@ -5,7 +5,7 @@ package number
 import (
 	"unicode/utf8"
 
-	"golang.org/x/text/internal/language/compact"
+	"github.com/xhit/internal/language/compact"
 )
 
 // A system identifies a CLDR numbering system.

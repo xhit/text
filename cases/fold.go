@@ -4,7 +4,7 @@
 
 package cases
 
-import "golang.org/x/text/transform"
+import "github.com/xhit/transform"
 
 type caseFolder struct{ transform.NopResetter }
 

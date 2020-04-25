@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/transform"
+	"github.com/xhit/internal/testtext"
+	"github.com/xhit/transform"
 )
 
 type testCase struct {

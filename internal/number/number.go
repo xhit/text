@@ -10,8 +10,8 @@ package number
 import (
 	"unicode/utf8"
 
-	"golang.org/x/text/internal/language/compact"
-	"golang.org/x/text/language"
+	"github.com/xhit/internal/language/compact"
+	"github.com/xhit/language"
 )
 
 // Info holds number formatting configuration data.

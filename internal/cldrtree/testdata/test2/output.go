@@ -2,7 +2,7 @@
 
 package test
 
-import "golang.org/x/text/internal/cldrtree"
+import "github.com/xhit/internal/cldrtree"
 
 var tree = &cldrtree.Tree{locales, indices, buckets}
 

@@ -7,8 +7,8 @@
 package main
 
 import (
-	"golang.org/x/text/language"
-	"golang.org/x/text/message"
+	"github.com/xhit/language"
+	"github.com/xhit/message"
 )
 
 // The printer defined here will be picked up by the first print statement

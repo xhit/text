@@ -17,10 +17,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/language/compact"
-	"golang.org/x/text/language"
-	"golang.org/x/text/unicode/cldr"
+	"github.com/xhit/internal/gen"
+	"github.com/xhit/internal/language/compact"
+	"github.com/xhit/language"
+	"github.com/xhit/unicode/cldr"
 )
 
 var genOutput = flag.Bool("gen", false, "generate output files")

@@ -9,7 +9,7 @@ package precis
 import (
 	"testing"
 
-	"golang.org/x/text/internal/testtext"
+	"github.com/xhit/internal/testtext"
 )
 
 var benchData = []struct{ name, str string }{

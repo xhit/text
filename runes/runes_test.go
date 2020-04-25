@@ -9,8 +9,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/transform"
+	"github.com/xhit/internal/testtext"
+	"github.com/xhit/transform"
 )
 
 type transformTest struct {

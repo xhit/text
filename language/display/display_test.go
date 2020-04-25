@@ -11,9 +11,9 @@ import (
 	"testing"
 	"unicode"
 
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/language"
-	"golang.org/x/text/message"
+	"github.com/xhit/internal/testtext"
+	"github.com/xhit/language"
+	"github.com/xhit/message"
 )
 
 // TODO: test that tables are properly dropped by the linker for various use

@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/internal/cldrtree"
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/language/compact"
-	"golang.org/x/text/internal/testtext"
-	"golang.org/x/text/language"
-	"golang.org/x/text/unicode/cldr"
+	"github.com/xhit/internal/cldrtree"
+	"github.com/xhit/internal/gen"
+	"github.com/xhit/internal/language/compact"
+	"github.com/xhit/internal/testtext"
+	"github.com/xhit/language"
+	"github.com/xhit/unicode/cldr"
 )
 
 func TestTables(t *testing.T) {

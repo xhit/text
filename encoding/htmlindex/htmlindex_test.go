@@ -7,11 +7,11 @@ package htmlindex
 import (
 	"testing"
 
-	"golang.org/x/text/encoding"
-	"golang.org/x/text/encoding/charmap"
-	"golang.org/x/text/encoding/internal/identifier"
-	"golang.org/x/text/encoding/unicode"
-	"golang.org/x/text/language"
+	"github.com/xhit/encoding"
+	"github.com/xhit/encoding/charmap"
+	"github.com/xhit/encoding/internal/identifier"
+	"github.com/xhit/encoding/unicode"
+	"github.com/xhit/language"
 )
 
 func TestGet(t *testing.T) {

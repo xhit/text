@@ -142,7 +142,7 @@
 //
 //
 // This package is UNDER CONSTRUCTION and its API may change.
-package catalog // import "golang.org/x/text/message/catalog"
+package catalog // import "github.com/xhit/message/catalog"
 
 // TODO:
 // Some way to freeze a catalog.
@@ -157,10 +157,10 @@ import (
 	"errors"
 	"fmt"
 
-	"golang.org/x/text/internal"
+	"github.com/xhit/internal"
 
-	"golang.org/x/text/internal/catmsg"
-	"golang.org/x/text/language"
+	"github.com/xhit/internal/catmsg"
+	"github.com/xhit/language"
 )
 
 // A Catalog allows lookup of translated messages.

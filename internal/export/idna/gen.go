@@ -18,10 +18,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/text/internal/gen"
-	"golang.org/x/text/internal/triegen"
-	"golang.org/x/text/internal/ucd"
-	"golang.org/x/text/unicode/bidi"
+	"github.com/xhit/internal/gen"
+	"github.com/xhit/internal/triegen"
+	"github.com/xhit/internal/ucd"
+	"github.com/xhit/unicode/bidi"
 )
 
 func main() {

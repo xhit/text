@@ -7,7 +7,7 @@ package idna_test
 import (
 	"fmt"
 
-	"golang.org/x/text/internal/export/idna"
+	"github.com/xhit/internal/export/idna"
 )
 
 func ExampleProfile() {

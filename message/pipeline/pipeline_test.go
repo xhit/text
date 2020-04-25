@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/text/language"
+	"github.com/xhit/language"
 )
 
 var genFiles = flag.Bool("gen", false, "generate output files instead of comparing")
