@@ -5,7 +5,7 @@ package currency
 import (
 	"time"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 // This file contains code common to gen.go and the package code.

@@ -10,10 +10,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/xhit/encoding"
-	"github.com/xhit/encoding/charmap"
-	"github.com/xhit/encoding/unicode"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/encoding"
+	"github.com/xhit/text/encoding/charmap"
+	"github.com/xhit/text/encoding/unicode"
+	"github.com/xhit/text/transform"
 )
 
 func ExampleDecodeWindows1252() {

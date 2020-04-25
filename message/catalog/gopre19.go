@@ -6,7 +6,7 @@
 
 package catalog
 
-import "github.com/xhit/internal/catmsg"
+import "github.com/xhit/text/internal/catmsg"
 
 // A Message holds a collection of translations for the same phrase that may
 // vary based on the values of substitution arguments.

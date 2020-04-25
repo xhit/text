@@ -7,8 +7,8 @@
 package bidirule
 
 import (
-	"github.com/xhit/transform"
-	"github.com/xhit/unicode/bidi"
+	"github.com/xhit/text/transform"
+	"github.com/xhit/text/unicode/bidi"
 )
 
 var testCases = [][]ruleTest{

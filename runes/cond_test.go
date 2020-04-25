@@ -9,9 +9,9 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/xhit/cases"
-	"github.com/xhit/language"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/cases"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/transform"
 )
 
 var (

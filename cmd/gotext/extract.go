@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/xhit/message/pipeline"
+	"github.com/xhit/text/message/pipeline"
 )
 
 // TODO:

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/xhit/language"
-	"github.com/xhit/message"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message"
 )
 
 // In this test, lowercap strings are ones that need to be picked up for

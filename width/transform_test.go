@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/transform"
 )
 
 func foldRune(r rune) (folded rune, ok bool) {

@@ -25,12 +25,12 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/xhit/collate"
-	"github.com/xhit/collate/build"
-	"github.com/xhit/internal/colltab"
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/language"
-	"github.com/xhit/unicode/cldr"
+	"github.com/xhit/text/collate"
+	"github.com/xhit/text/collate/build"
+	"github.com/xhit/text/internal/colltab"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/unicode/cldr"
 )
 
 var (

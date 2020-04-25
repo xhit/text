@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package message // import "github.com/xhit/message"
+package message // import "github.com/xhit/text/message"
 
 import (
 	"io"
 	"os"
 
 	// Include features to facilitate generated catalogs.
-	_ "github.com/xhit/feature/plural"
+	_ "github.com/xhit/text/feature/plural"
 
-	"github.com/xhit/internal/number"
-	"github.com/xhit/language"
-	"github.com/xhit/message/catalog"
+	"github.com/xhit/text/internal/number"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message/catalog"
 )
 
 // A Printer implements language-specific formatted I/O analogous to the fmt

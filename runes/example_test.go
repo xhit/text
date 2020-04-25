@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"unicode"
 
-	"github.com/xhit/runes"
-	"github.com/xhit/transform"
-	"github.com/xhit/unicode/norm"
-	"github.com/xhit/width"
+	"github.com/xhit/text/runes"
+	"github.com/xhit/text/transform"
+	"github.com/xhit/text/unicode/norm"
+	"github.com/xhit/text/width"
 )
 
 func ExampleRemove() {

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/language"
-	"github.com/xhit/message/catalog"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message/catalog"
 )
 
 func TestMatchLanguage(t *testing.T) {

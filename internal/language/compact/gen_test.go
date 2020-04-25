@@ -7,7 +7,7 @@ package compact
 import (
 	"testing"
 
-	"github.com/xhit/internal/language"
+	"github.com/xhit/text/internal/language"
 )
 
 func TestParents(t *testing.T) {

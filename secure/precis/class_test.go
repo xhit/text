@@ -7,7 +7,7 @@ package precis
 import (
 	"testing"
 
-	"github.com/xhit/runes"
+	"github.com/xhit/text/runes"
 )
 
 // Compile-time regression test to ensure that Class is a Set

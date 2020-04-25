@@ -10,15 +10,15 @@
 // (https://www.w3.org/TR/html5/document-metadata.html#charset)
 // while WHATWG directly prohibits supporting it
 // (https://html.spec.whatwg.org/multipage/syntax.html#character-encodings).
-package utf32 // import "github.com/xhit/encoding/unicode/utf32"
+package utf32 // import "github.com/xhit/text/encoding/unicode/utf32"
 
 import (
 	"errors"
 	"unicode/utf8"
 
-	"github.com/xhit/encoding"
-	"github.com/xhit/encoding/internal/identifier"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/encoding"
+	"github.com/xhit/text/encoding/internal/identifier"
+	"github.com/xhit/text/transform"
 )
 
 // All lists a configuration for each IANA-defined UTF-32 variant.

@@ -7,8 +7,8 @@ package pkg
 import (
 	"net/http"
 
-	"github.com/xhit/language"
-	"github.com/xhit/message"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message"
 )
 
 var matcher = language.NewMatcher(message.DefaultCatalog.Languages())

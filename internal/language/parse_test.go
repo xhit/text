@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/internal/tag"
+	"github.com/xhit/text/internal/tag"
 )
 
 type scanTest struct {

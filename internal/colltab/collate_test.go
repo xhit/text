@@ -12,9 +12,9 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/xhit/collate"
-	"github.com/xhit/language"
-	"github.com/xhit/unicode/rangetable"
+	"github.com/xhit/text/collate"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/unicode/rangetable"
 )
 
 // assigned is used to only test runes that are inside the scope of the Unicode

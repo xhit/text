@@ -4,7 +4,7 @@
 
 package precis
 
-import "github.com/xhit/transform"
+import "github.com/xhit/text/transform"
 
 // Transformer implements the transform.Transformer interface.
 type Transformer struct {

@@ -13,9 +13,9 @@
 package plural
 
 import (
-	"github.com/xhit/internal/language/compact"
-	"github.com/xhit/internal/number"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/language/compact"
+	"github.com/xhit/text/internal/number"
+	"github.com/xhit/text/language"
 )
 
 // Rules defines the plural rules for all languages for a certain plural type.

@@ -3,13 +3,13 @@
 // license that can be found in the LICENSE file.
 
 // Package runes provide transforms for UTF-8 encoded text.
-package runes // import "github.com/xhit/runes"
+package runes // import "github.com/xhit/text/runes"
 
 import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/xhit/transform"
+	"github.com/xhit/text/transform"
 )
 
 // A Set is a collection of runes.

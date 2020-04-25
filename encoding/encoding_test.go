@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/encoding"
-	"github.com/xhit/encoding/charmap"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/encoding"
+	"github.com/xhit/text/encoding/charmap"
+	"github.com/xhit/text/transform"
 )
 
 func TestEncodeInvalidUTF8(t *testing.T) {

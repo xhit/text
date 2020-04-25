@@ -10,8 +10,8 @@ package number
 import (
 	"unicode/utf8"
 
-	"github.com/xhit/internal/language/compact"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/language/compact"
+	"github.com/xhit/text/language"
 )
 
 // Info holds number formatting configuration data.

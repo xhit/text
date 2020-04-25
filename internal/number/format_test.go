@@ -9,7 +9,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 func TestAppendDecimal(t *testing.T) {

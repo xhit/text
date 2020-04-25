@@ -5,9 +5,9 @@
 package number_test
 
 import (
-	"github.com/xhit/language"
-	"github.com/xhit/message"
-	"github.com/xhit/number"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message"
+	"github.com/xhit/text/number"
 )
 
 func ExampleMaxIntegerDigits() {

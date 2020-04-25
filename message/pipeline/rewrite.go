@@ -18,7 +18,7 @@ import (
 	"golang.org/x/tools/go/loader"
 )
 
-const printerType = "github.com/xhit/message.Printer"
+const printerType = "github.com/xhit/text/message.Printer"
 
 // Rewrite rewrites the Go files in a single package to use the localization
 // machinery and rewrites strings to adopt best practices when possible.
@@ -139,7 +139,7 @@ func (r *rewriter) Visit(n ast.Node) ast.Visitor {
 
 	// TODO: remove cheap hack and check if the type either
 	// implements some interface or is specifically of type
-	// "github.com/xhit/message".Printer.
+	// "github.com/xhit/text/message".Printer.
 	m, ok := rewriteFuncs[source]
 	if !ok {
 		return r

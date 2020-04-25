@@ -7,7 +7,7 @@ package runes
 import (
 	"unicode/utf8"
 
-	"github.com/xhit/transform"
+	"github.com/xhit/text/transform"
 )
 
 // Note: below we pass invalid UTF-8 to the tIn and tNotIn transformers as is.

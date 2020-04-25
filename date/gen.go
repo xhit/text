@@ -12,10 +12,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xhit/internal/cldrtree"
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/language"
-	"github.com/xhit/unicode/cldr"
+	"github.com/xhit/text/internal/cldrtree"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/unicode/cldr"
 )
 
 var (

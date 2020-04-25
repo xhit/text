@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xhit/encoding/internal/identifier"
-	"github.com/xhit/internal/gen"
+	"github.com/xhit/text/encoding/internal/identifier"
+	"github.com/xhit/text/internal/gen"
 )
 
 type registry struct {
@@ -74,7 +74,7 @@ func main() {
 
 	w := gen.NewCodeWriter()
 
-	fmt.Fprintln(w, `import "github.com/xhit/encoding/internal/identifier"`)
+	fmt.Fprintln(w, `import "github.com/xhit/text/encoding/internal/identifier"`)
 
 	writeIndex(w, x)
 

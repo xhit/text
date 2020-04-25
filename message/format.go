@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/xhit/internal/format"
+	"github.com/xhit/text/internal/format"
 )
 
 const (

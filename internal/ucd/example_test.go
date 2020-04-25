@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/xhit/internal/ucd"
+	"github.com/xhit/text/internal/ucd"
 )
 
 func Example() {

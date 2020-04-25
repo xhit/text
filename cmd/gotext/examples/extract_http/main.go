@@ -9,7 +9,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/xhit/cmd/gotext/examples/extract_http/pkg"
+	"github.com/xhit/text/cmd/gotext/examples/extract_http/pkg"
 )
 
 func main() {

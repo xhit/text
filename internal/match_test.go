@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 func TestInheritanceMatcher(t *testing.T) {

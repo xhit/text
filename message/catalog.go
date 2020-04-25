@@ -8,8 +8,8 @@ package message
 // Documentation and method names will reflect this by using the exported name.
 
 import (
-	"github.com/xhit/language"
-	"github.com/xhit/message/catalog"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message/catalog"
 )
 
 // MatchLanguage reports the matched tag obtained from language.MatchStrings for

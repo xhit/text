@@ -10,7 +10,7 @@ import (
 	"io"
 	"unicode/utf8"
 
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/unicode/norm"
 )
 
 // EqualSimple uses a norm.Iter to compare two non-normalized

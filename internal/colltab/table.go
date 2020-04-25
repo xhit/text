@@ -7,7 +7,7 @@ package colltab
 import (
 	"unicode/utf8"
 
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/unicode/norm"
 )
 
 // Table holds all collation data for a given collation ordering.

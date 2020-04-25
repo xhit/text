@@ -7,7 +7,7 @@ package idna_test
 import (
 	"fmt"
 
-	"github.com/xhit/internal/export/idna"
+	"github.com/xhit/text/internal/export/idna"
 )
 
 func ExampleProfile() {

@@ -4,7 +4,7 @@
 
 package cases
 
-import "github.com/xhit/transform"
+import "github.com/xhit/text/transform"
 
 // A context is used for iterating over source bytes, fetching case info and
 // writing to a destination buffer.

@@ -8,14 +8,14 @@
 //
 // NOTE: the formatting functionality is currently under development and may
 // change without notice.
-package currency // import "github.com/xhit/currency"
+package currency // import "github.com/xhit/text/currency"
 
 import (
 	"errors"
 	"sort"
 
-	"github.com/xhit/internal/tag"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/tag"
+	"github.com/xhit/text/language"
 )
 
 // TODO:

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/xhit/internal/colltab"
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/internal/colltab"
+	"github.com/xhit/text/unicode/norm"
 )
 
 type logicalAnchor int

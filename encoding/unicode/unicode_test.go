@@ -7,10 +7,10 @@ package unicode
 import (
 	"testing"
 
-	"github.com/xhit/encoding"
-	"github.com/xhit/encoding/charmap"
-	"github.com/xhit/encoding/internal/enctest"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/encoding"
+	"github.com/xhit/text/encoding/charmap"
+	"github.com/xhit/text/encoding/internal/enctest"
+	"github.com/xhit/text/transform"
 )
 
 func TestBasics(t *testing.T) {

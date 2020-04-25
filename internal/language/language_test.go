@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/xhit/internal/testtext"
+	"github.com/xhit/text/internal/testtext"
 )
 
 func TestTagSize(t *testing.T) {

@@ -7,11 +7,11 @@ package htmlindex
 import (
 	"testing"
 
-	"github.com/xhit/encoding"
-	"github.com/xhit/encoding/charmap"
-	"github.com/xhit/encoding/internal/identifier"
-	"github.com/xhit/encoding/unicode"
-	"github.com/xhit/language"
+	"github.com/xhit/text/encoding"
+	"github.com/xhit/text/encoding/charmap"
+	"github.com/xhit/text/encoding/internal/identifier"
+	"github.com/xhit/text/encoding/unicode"
+	"github.com/xhit/text/language"
 )
 
 func TestGet(t *testing.T) {

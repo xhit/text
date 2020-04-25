@@ -7,7 +7,7 @@ package norm_test
 import (
 	"fmt"
 
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/unicode/norm"
 )
 
 func ExampleForm_NextBoundary() {

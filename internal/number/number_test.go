@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/language"
 )
 
 func TestInfo(t *testing.T) {

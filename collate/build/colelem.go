@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"unicode"
 
-	"github.com/xhit/internal/colltab"
+	"github.com/xhit/text/internal/colltab"
 )
 
 const (

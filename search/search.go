@@ -13,13 +13,13 @@
 //
 // Text passed to any of the calls in this message does not need to be
 // normalized.
-package search // import "github.com/xhit/search"
+package search // import "github.com/xhit/text/search"
 
 import (
 	"strings"
 
-	"github.com/xhit/internal/colltab"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/colltab"
+	"github.com/xhit/text/language"
 )
 
 // An Option configures a Matcher.

@@ -12,8 +12,8 @@ package language
 import (
 	"strings"
 
-	"github.com/xhit/internal/language"
-	"github.com/xhit/internal/language/compact"
+	"github.com/xhit/text/internal/language"
+	"github.com/xhit/text/internal/language/compact"
 )
 
 // Tag represents a BCP 47 language tag. It is used to specify an instance of a

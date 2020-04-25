@@ -16,11 +16,11 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/xhit/collate"
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/ucd"
-	"github.com/xhit/language"
-	"github.com/xhit/unicode/rangetable"
+	"github.com/xhit/text/collate"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/ucd"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/unicode/rangetable"
 )
 
 var versionList = flag.String("versions", "",

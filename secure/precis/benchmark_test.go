@@ -9,7 +9,7 @@ package precis
 import (
 	"testing"
 
-	"github.com/xhit/internal/testtext"
+	"github.com/xhit/text/internal/testtext"
 )
 
 var benchData = []struct{ name, str string }{

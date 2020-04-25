@@ -7,10 +7,10 @@ package charmap
 import (
 	"testing"
 
-	"github.com/xhit/encoding"
-	"github.com/xhit/encoding/internal"
-	"github.com/xhit/encoding/internal/enctest"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/encoding"
+	"github.com/xhit/text/encoding/internal"
+	"github.com/xhit/text/encoding/internal/enctest"
+	"github.com/xhit/text/transform"
 )
 
 func dec(e encoding.Encoding) (dir string, t transform.Transformer, err error) {

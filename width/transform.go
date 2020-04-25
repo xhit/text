@@ -7,7 +7,7 @@ package width
 import (
 	"unicode/utf8"
 
-	"github.com/xhit/transform"
+	"github.com/xhit/text/transform"
 )
 
 type foldTransform struct {

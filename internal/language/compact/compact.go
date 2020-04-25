@@ -11,13 +11,13 @@
 //
 // It may want to export this functionality at some point, but at this point
 // this is only available for use within x/text.
-package compact // import "github.com/xhit/internal/language/compact"
+package compact // import "github.com/xhit/text/internal/language/compact"
 
 import (
 	"sort"
 	"strings"
 
-	"github.com/xhit/internal/language"
+	"github.com/xhit/text/internal/language"
 )
 
 // ID is an integer identifying a single tag.

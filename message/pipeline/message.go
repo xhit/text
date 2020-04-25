@@ -9,7 +9,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 // TODO: these definitions should be moved to a package so that the can be used

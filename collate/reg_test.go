@@ -19,9 +19,9 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/xhit/collate/build"
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/language"
+	"github.com/xhit/text/collate/build"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/language"
 )
 
 var long = flag.Bool("long", false,

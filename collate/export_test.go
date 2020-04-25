@@ -10,7 +10,7 @@ package collate
 import (
 	"fmt"
 
-	"github.com/xhit/internal/colltab"
+	"github.com/xhit/text/internal/colltab"
 )
 
 const (

@@ -84,7 +84,7 @@
                 {
                     "id": "ReferralCode",
                     "string": "%[1]d",
-                    "type": "github.com/xhit/cmd/gotext/examples/extract.referralCode",
+                    "type": "github.com/xhit/text/cmd/gotext/examples/extract.referralCode",
                     "underlyingType": "int",
                     "argNum": 1,
                     "expr": "c"

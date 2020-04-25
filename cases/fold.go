@@ -4,7 +4,7 @@
 
 package cases
 
-import "github.com/xhit/transform"
+import "github.com/xhit/text/transform"
 
 type caseFolder struct{ transform.NopResetter }
 

@@ -18,9 +18,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/language"
-	"github.com/xhit/unicode/cldr"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/language"
+	"github.com/xhit/text/unicode/cldr"
 )
 
 var (

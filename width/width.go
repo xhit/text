@@ -13,12 +13,12 @@
 // layout.
 //
 // For more information, see https://unicode.org/reports/tr11/.
-package width // import "github.com/xhit/width"
+package width // import "github.com/xhit/text/width"
 
 import (
 	"unicode/utf8"
 
-	"github.com/xhit/transform"
+	"github.com/xhit/text/transform"
 )
 
 // TODO

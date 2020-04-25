@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/xhit/internal/language"
+	"github.com/xhit/text/internal/language"
 )
 
 func mustParse(s string) Tag {

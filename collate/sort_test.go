@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xhit/collate"
-	"github.com/xhit/language"
+	"github.com/xhit/text/collate"
+	"github.com/xhit/text/language"
 )
 
 func ExampleCollator_Strings() {

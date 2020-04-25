@@ -8,7 +8,7 @@ package idna
 import (
 	"log"
 
-	"github.com/xhit/internal/ucd"
+	"github.com/xhit/text/internal/ucd"
 )
 
 func catFromEntry(p *ucd.Parser) (cat category) {

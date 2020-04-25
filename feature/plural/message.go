@@ -10,10 +10,10 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/xhit/internal/catmsg"
-	"github.com/xhit/internal/number"
-	"github.com/xhit/language"
-	"github.com/xhit/message/catalog"
+	"github.com/xhit/text/internal/catmsg"
+	"github.com/xhit/text/internal/number"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message/catalog"
 )
 
 // TODO: consider deleting this interface. Maybe VisibleDigits is always
@@ -105,7 +105,7 @@ const (
 	kindPrecision  // verb g, number of significant digits follows
 )
 
-var handle = catmsg.Register("github.com/xhit/feature/plural:plural", execute)
+var handle = catmsg.Register("github.com/xhit/text/feature/plural:plural", execute)
 
 func (m *message) Compile(e *catmsg.Encoder) error {
 	e.EncodeMessageType(handle)

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/internal/language"
+	"github.com/xhit/text/internal/language"
 )
 
 var errSyntax = language.ErrSyntax

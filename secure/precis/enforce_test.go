@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/transform"
 )
 
 type testCase struct {

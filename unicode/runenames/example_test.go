@@ -7,7 +7,7 @@ package runenames_test
 import (
 	"fmt"
 
-	"github.com/xhit/unicode/runenames"
+	"github.com/xhit/text/unicode/runenames"
 )
 
 func Example() {

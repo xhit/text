@@ -11,9 +11,9 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/language"
-	"github.com/xhit/message"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message"
 )
 
 // TODO: test that tables are properly dropped by the linker for various use

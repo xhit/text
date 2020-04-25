@@ -142,7 +142,7 @@
 //
 //
 // This package is UNDER CONSTRUCTION and its API may change.
-package catalog // import "github.com/xhit/message/catalog"
+package catalog // import "github.com/xhit/text/message/catalog"
 
 // TODO:
 // Some way to freeze a catalog.
@@ -157,10 +157,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/xhit/internal"
+	"github.com/xhit/text/internal"
 
-	"github.com/xhit/internal/catmsg"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/catmsg"
+	"github.com/xhit/text/language"
 )
 
 // A Catalog allows lookup of translated messages.

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/unicode/bidi"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/unicode/bidi"
 )
 
 const (

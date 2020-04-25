@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"unicode"
 
-	"github.com/xhit/transform"
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/transform"
+	"github.com/xhit/text/unicode/norm"
 )
 
 func ExampleRemoveFunc() {

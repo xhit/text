@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 // A Renderer renders a Message.

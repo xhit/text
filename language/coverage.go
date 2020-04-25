@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/xhit/internal/language"
+	"github.com/xhit/text/internal/language"
 )
 
 // The Coverage interface is used to define the level of coverage of an

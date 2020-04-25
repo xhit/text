@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/language"
-	"github.com/xhit/message"
-	"github.com/xhit/unicode/cldr"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message"
+	"github.com/xhit/text/unicode/cldr"
 )
 
 var draft = flag.String("draft",

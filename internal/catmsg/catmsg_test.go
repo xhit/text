@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 type renderer struct {
@@ -271,7 +271,7 @@ type empty struct{}
 func (empty) Compile(e *Encoder) (err error) { return nil }
 
 var msgIncomplete = Register(
-	"github.com/xhit/internal/catmsg.incomplete",
+	"github.com/xhit/text/internal/catmsg.incomplete",
 	func(d *Decoder) bool { return false })
 
 type incomplete struct{}
@@ -282,7 +282,7 @@ func (incomplete) Compile(e *Encoder) (err error) {
 }
 
 var msgNested = Register(
-	"github.com/xhit/internal/catmsg.nested",
+	"github.com/xhit/text/internal/catmsg.nested",
 	func(d *Decoder) bool {
 		d.Render(d.DecodeString())
 		d.ExecuteMessage()

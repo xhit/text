@@ -12,9 +12,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/gen/bitfield"
-	"github.com/xhit/internal/ucd"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/gen/bitfield"
+	"github.com/xhit/text/internal/ucd"
 )
 
 var (

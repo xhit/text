@@ -7,8 +7,8 @@
 package main
 
 import (
-	"github.com/xhit/language"
-	"github.com/xhit/message"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message"
 )
 
 // The printer defined here will be picked up by the first print statement

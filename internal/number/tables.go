@@ -2,7 +2,7 @@
 
 package number
 
-import "github.com/xhit/internal/stringset"
+import "github.com/xhit/text/internal/stringset"
 
 // CLDRVersion is the CLDR version from which the tables in this package are derived.
 const CLDRVersion = "32"

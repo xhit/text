@@ -3,19 +3,19 @@
 // license that can be found in the LICENSE file.
 
 // Package unicode provides Unicode encodings such as UTF-16.
-package unicode // import "github.com/xhit/encoding/unicode"
+package unicode // import "github.com/xhit/text/encoding/unicode"
 
 import (
 	"errors"
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"github.com/xhit/encoding"
-	"github.com/xhit/encoding/internal"
-	"github.com/xhit/encoding/internal/identifier"
-	"github.com/xhit/internal/utf8internal"
-	"github.com/xhit/runes"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/encoding"
+	"github.com/xhit/text/encoding/internal"
+	"github.com/xhit/text/encoding/internal/identifier"
+	"github.com/xhit/text/internal/utf8internal"
+	"github.com/xhit/text/runes"
+	"github.com/xhit/text/transform"
 )
 
 // TODO: I think the Transformers really should return errors on unmatched

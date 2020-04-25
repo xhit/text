@@ -7,12 +7,12 @@
 //
 // This package is internal now, but will eventually be exposed after the API
 // settles.
-package format // import "github.com/xhit/internal/format"
+package format // import "github.com/xhit/text/internal/format"
 
 import (
 	"fmt"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 // State represents the printer state passed to custom formatters. It provides

@@ -22,10 +22,10 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/triegen"
-	"github.com/xhit/internal/ucd"
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/triegen"
+	"github.com/xhit/text/internal/ucd"
+	"github.com/xhit/text/unicode/norm"
 )
 
 func main() {

@@ -10,7 +10,7 @@ import (
 	"math/rand"
 	"unicode"
 
-	"github.com/xhit/internal/triegen"
+	"github.com/xhit/text/internal/triegen"
 )
 
 const seed = 0x12345

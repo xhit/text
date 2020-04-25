@@ -9,8 +9,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/transform"
 )
 
 type transformTest struct {

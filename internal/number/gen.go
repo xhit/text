@@ -14,12 +14,12 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/language"
-	"github.com/xhit/internal/language/compact"
-	"github.com/xhit/internal/number"
-	"github.com/xhit/internal/stringset"
-	"github.com/xhit/unicode/cldr"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/language"
+	"github.com/xhit/text/internal/language/compact"
+	"github.com/xhit/text/internal/number"
+	"github.com/xhit/text/internal/stringset"
+	"github.com/xhit/text/unicode/cldr"
 )
 
 var (
@@ -54,7 +54,7 @@ func main() {
 	w := gen.NewCodeWriter()
 	defer w.WriteGoFile(*outputFile, pkg)
 
-	fmt.Fprintln(w, `import "github.com/xhit/internal/stringset"`)
+	fmt.Fprintln(w, `import "github.com/xhit/text/internal/stringset"`)
 
 	gen.WriteCLDRVersion(w)
 

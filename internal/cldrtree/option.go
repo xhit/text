@@ -7,7 +7,7 @@ package cldrtree
 import (
 	"reflect"
 
-	"github.com/xhit/unicode/cldr"
+	"github.com/xhit/text/unicode/cldr"
 )
 
 // An Option configures an Index.

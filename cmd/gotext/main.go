@@ -25,9 +25,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/xhit/message/pipeline"
+	"github.com/xhit/text/message/pipeline"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 	"golang.org/x/tools/go/buildutil"
 )
 

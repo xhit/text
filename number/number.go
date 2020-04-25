@@ -13,7 +13,7 @@ package number
 //
 
 import (
-	"github.com/xhit/internal/number"
+	"github.com/xhit/text/internal/number"
 )
 
 const (

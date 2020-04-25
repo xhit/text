@@ -10,9 +10,9 @@ import (
 	"flag"
 	"log"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/triegen"
-	"github.com/xhit/internal/ucd"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/triegen"
+	"github.com/xhit/text/internal/ucd"
 )
 
 var outputFile = flag.String("out", "tables.go", "output file")

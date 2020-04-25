@@ -6,15 +6,15 @@
 
 // Package charmap provides simple character encodings such as IBM Code Page 437
 // and Windows 1252.
-package charmap // import "github.com/xhit/encoding/charmap"
+package charmap // import "github.com/xhit/text/encoding/charmap"
 
 import (
 	"unicode/utf8"
 
-	"github.com/xhit/encoding"
-	"github.com/xhit/encoding/internal"
-	"github.com/xhit/encoding/internal/identifier"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/encoding"
+	"github.com/xhit/text/encoding/internal"
+	"github.com/xhit/text/encoding/internal/identifier"
+	"github.com/xhit/text/transform"
 )
 
 // These encodings vary only in the way clients should interpret them. Their

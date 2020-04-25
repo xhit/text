@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/internal/language"
+	"github.com/xhit/text/internal/language"
 )
 
 // equalTags compares language, script and region subtags only.

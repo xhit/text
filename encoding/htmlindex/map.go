@@ -5,14 +5,14 @@
 package htmlindex
 
 import (
-	"github.com/xhit/encoding"
-	"github.com/xhit/encoding/charmap"
-	"github.com/xhit/encoding/internal/identifier"
-	"github.com/xhit/encoding/japanese"
-	"github.com/xhit/encoding/korean"
-	"github.com/xhit/encoding/simplifiedchinese"
-	"github.com/xhit/encoding/traditionalchinese"
-	"github.com/xhit/encoding/unicode"
+	"github.com/xhit/text/encoding"
+	"github.com/xhit/text/encoding/charmap"
+	"github.com/xhit/text/encoding/internal/identifier"
+	"github.com/xhit/text/encoding/japanese"
+	"github.com/xhit/text/encoding/korean"
+	"github.com/xhit/text/encoding/simplifiedchinese"
+	"github.com/xhit/text/encoding/traditionalchinese"
+	"github.com/xhit/text/encoding/unicode"
 )
 
 // mibMap maps a MIB identifier to an htmlEncoding index.

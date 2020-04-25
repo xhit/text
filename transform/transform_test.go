@@ -15,7 +15,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/xhit/internal/testtext"
+	"github.com/xhit/text/internal/testtext"
 )
 
 type lowerCaseASCII struct{ NopResetter }

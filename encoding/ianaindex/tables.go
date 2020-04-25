@@ -2,7 +2,7 @@
 
 package ianaindex
 
-import "github.com/xhit/encoding/internal/identifier"
+import "github.com/xhit/text/encoding/internal/identifier"
 
 const (
 	enc3 = iota

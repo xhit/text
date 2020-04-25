@@ -7,9 +7,9 @@ package catalog
 import (
 	"sync"
 
-	"github.com/xhit/internal"
-	"github.com/xhit/internal/catmsg"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal"
+	"github.com/xhit/text/internal/catmsg"
+	"github.com/xhit/text/language"
 )
 
 // TODO:

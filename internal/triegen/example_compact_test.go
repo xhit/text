@@ -9,7 +9,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/xhit/internal/triegen"
+	"github.com/xhit/text/internal/triegen"
 )
 
 func ExampleCompacter() {

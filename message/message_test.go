@@ -10,10 +10,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/xhit/internal"
-	"github.com/xhit/internal/format"
-	"github.com/xhit/language"
-	"github.com/xhit/message/catalog"
+	"github.com/xhit/text/internal"
+	"github.com/xhit/text/internal/format"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message/catalog"
 )
 
 type formatFunc func(s fmt.State, v rune)

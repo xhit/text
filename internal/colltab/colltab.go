@@ -4,12 +4,12 @@
 
 // Package colltab contains functionality related to collation tables.
 // It is only to be used by the collate and search packages.
-package colltab // import "github.com/xhit/internal/colltab"
+package colltab // import "github.com/xhit/text/internal/colltab"
 
 import (
 	"sort"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 // MatchLang finds the index of t in tags, using a matching algorithm used for

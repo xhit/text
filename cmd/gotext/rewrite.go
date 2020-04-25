@@ -8,10 +8,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/xhit/message/pipeline"
+	"github.com/xhit/text/message/pipeline"
 )
 
-const printerType = "github.com/xhit/message.Printer"
+const printerType = "github.com/xhit/text/message.Printer"
 
 // TODO:
 // - merge information into existing files

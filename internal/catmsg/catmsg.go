@@ -68,7 +68,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 // A Handle refers to a registered message type.
@@ -109,7 +109,7 @@ const (
 	numInternal = 20
 )
 
-const prefix = "github.com/xhit/internal/catmsg."
+const prefix = "github.com/xhit/text/internal/catmsg."
 
 var (
 	// TODO: find a more stable way to link handles to message types.

@@ -2,7 +2,7 @@
 
 package language
 
-import "github.com/xhit/internal/tag"
+import "github.com/xhit/text/internal/tag"
 
 // CLDRVersion is the CLDR version from which the tables in this package are derived.
 const CLDRVersion = "32"

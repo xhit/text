@@ -8,7 +8,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/xhit/internal/language"
+	"github.com/xhit/text/internal/language"
 )
 
 // A MatchOption configures a Matcher.

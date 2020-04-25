@@ -12,8 +12,8 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"github.com/xhit/language"
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/unicode/norm"
 )
 
 // TODO: replace with functionality in language package.

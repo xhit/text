@@ -18,12 +18,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xhit/internal/language/compact"
+	"github.com/xhit/text/internal/language/compact"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/tag"
-	"github.com/xhit/language"
-	"github.com/xhit/unicode/cldr"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/tag"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/unicode/cldr"
 )
 
 var (
@@ -56,7 +56,7 @@ func main() {
 	w := gen.NewCodeWriter()
 	defer w.WriteGoFile(*outputFile, "currency")
 
-	fmt.Fprintln(w, `import "github.com/xhit/internal/tag"`)
+	fmt.Fprintln(w, `import "github.com/xhit/text/internal/tag"`)
 
 	gen.WriteCLDRVersion(w)
 	b := &builder{}

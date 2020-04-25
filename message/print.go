@@ -12,10 +12,10 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"github.com/xhit/internal/format"
-	"github.com/xhit/internal/number"
-	"github.com/xhit/language"
-	"github.com/xhit/message/catalog"
+	"github.com/xhit/text/internal/format"
+	"github.com/xhit/text/internal/number"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message/catalog"
 )
 
 // Strings for use with buffer.WriteString.
@@ -64,7 +64,7 @@ func (p *printer) free() {
 }
 
 // printer is used to store a printer's state.
-// It implements "github.com/xhit/internal/format".State.
+// It implements "github.com/xhit/text/internal/format".State.
 type printer struct {
 	Printer
 
@@ -88,7 +88,7 @@ type printer struct {
 	erroring bool
 }
 
-// Language implements "github.com/xhit/internal/format".State.
+// Language implements "github.com/xhit/text/internal/format".State.
 func (p *printer) Language() language.Tag { return p.tag }
 
 func (p *printer) Width() (wid int, ok bool) { return p.fmt.Width, p.fmt.WidthPresent }

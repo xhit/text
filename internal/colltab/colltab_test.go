@@ -3,7 +3,7 @@ package colltab
 import (
 	"testing"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 func TestMatchLang(t *testing.T) {

@@ -22,9 +22,9 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/xhit/internal"
-	"github.com/xhit/language"
-	"github.com/xhit/runes"
+	"github.com/xhit/text/internal"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/runes"
 	"golang.org/x/tools/go/loader"
 )
 

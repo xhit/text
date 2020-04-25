@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/xhit/internal/language"
+	"github.com/xhit/text/internal/language"
 )
 
 func TestSupported(t *testing.T) {

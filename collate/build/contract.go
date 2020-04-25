@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xhit/internal/colltab"
+	"github.com/xhit/text/internal/colltab"
 )
 
 // This file contains code for detecting contractions and generating

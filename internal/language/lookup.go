@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/xhit/internal/tag"
+	"github.com/xhit/text/internal/tag"
 )
 
 // findIndex tries to find the given tag in idx and returns a standardized error

@@ -9,8 +9,8 @@ package precis
 import (
 	"strings"
 
-	"github.com/xhit/runes"
-	"github.com/xhit/secure/bidirule"
+	"github.com/xhit/text/runes"
+	"github.com/xhit/text/secure/bidirule"
 )
 
 var enforceTestCases = []struct {

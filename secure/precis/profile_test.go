@@ -10,8 +10,8 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/transform"
 )
 
 // copyOrbit is a Transformer for the sole purpose of testing the apply method,

@@ -3,8 +3,8 @@
 package charmap
 
 import (
-	"github.com/xhit/encoding"
-	"github.com/xhit/encoding/internal/identifier"
+	"github.com/xhit/text/encoding"
+	"github.com/xhit/text/encoding/internal/identifier"
 )
 
 // CodePage037 is the IBM Code Page 037 encoding.

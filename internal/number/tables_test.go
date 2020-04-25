@@ -10,11 +10,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/language"
-	"github.com/xhit/internal/language/compact"
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/unicode/cldr"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/language"
+	"github.com/xhit/text/internal/language/compact"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/unicode/cldr"
 )
 
 var draft = flag.String("draft",

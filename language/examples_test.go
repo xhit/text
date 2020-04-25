@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 func ExampleCanonType() {

@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xhit/feature/plural"
-	"github.com/xhit/language"
-	"github.com/xhit/message"
+	"github.com/xhit/text/feature/plural"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message"
 )
 
 func TestWrongVerb(t *testing.T) {

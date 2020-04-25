@@ -8,8 +8,8 @@ import (
 	"log"
 	"unicode/utf16"
 
-	"github.com/xhit/collate"
-	"github.com/xhit/language"
+	"github.com/xhit/text/collate"
+	"github.com/xhit/text/language"
 )
 
 // Input holds an input string in both UTF-8 and UTF-16 format.

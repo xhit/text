@@ -4,7 +4,7 @@
 
 package main
 
-import "github.com/xhit/message"
+import "github.com/xhit/text/message"
 
 func main() {
 	p := message.NewPrinter(message.MatchLanguage("en"))

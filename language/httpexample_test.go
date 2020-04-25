@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 // matcher is a language.Matcher configured for all supported languages.

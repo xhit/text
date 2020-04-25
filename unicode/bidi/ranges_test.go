@@ -5,9 +5,9 @@ package bidi
 import (
 	"unicode"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/ucd"
-	"github.com/xhit/unicode/rangetable"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/ucd"
+	"github.com/xhit/text/unicode/rangetable"
 )
 
 // These tables are hand-extracted from:

@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package tag contains functionality handling tags and related data.
-package tag // import "github.com/xhit/internal/tag"
+package tag // import "github.com/xhit/text/internal/tag"
 
 import "sort"
 

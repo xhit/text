@@ -7,7 +7,7 @@ package build
 import (
 	"testing"
 
-	"github.com/xhit/internal/colltab"
+	"github.com/xhit/text/internal/colltab"
 )
 
 type ceTest struct {

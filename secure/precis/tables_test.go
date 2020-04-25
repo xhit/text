@@ -9,8 +9,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/xhit/runes"
-	"github.com/xhit/unicode/rangetable"
+	"github.com/xhit/text/runes"
+	"github.com/xhit/text/unicode/rangetable"
 )
 
 type tableTest struct {

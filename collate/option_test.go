@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/internal/colltab"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/colltab"
+	"github.com/xhit/text/language"
 )
 
 var (

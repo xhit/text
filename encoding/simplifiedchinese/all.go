@@ -5,7 +5,7 @@
 package simplifiedchinese
 
 import (
-	"github.com/xhit/encoding"
+	"github.com/xhit/text/encoding"
 )
 
 // All is a list of all defined encodings in this package.

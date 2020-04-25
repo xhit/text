@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/language"
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/unicode/norm"
 )
 
 func TestICUConformance(t *testing.T) {

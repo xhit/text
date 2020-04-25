@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/xhit/internal/colltab"
+	"github.com/xhit/text/internal/colltab"
 )
 
 var largetosmall = []stridx{

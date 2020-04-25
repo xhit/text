@@ -8,14 +8,14 @@
 
 // Package collate contains types for comparing and sorting Unicode strings
 // according to a given collation order.
-package collate // import "github.com/xhit/collate"
+package collate // import "github.com/xhit/text/collate"
 
 import (
 	"bytes"
 	"strings"
 
-	"github.com/xhit/internal/colltab"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/colltab"
+	"github.com/xhit/text/language"
 )
 
 // Collator provides functionality for comparing strings for a given

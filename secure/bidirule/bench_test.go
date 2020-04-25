@@ -7,7 +7,7 @@ package bidirule
 import (
 	"testing"
 
-	"github.com/xhit/internal/testtext"
+	"github.com/xhit/text/internal/testtext"
 )
 
 var benchData = []struct{ name, data string }{

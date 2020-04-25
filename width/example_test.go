@@ -7,7 +7,7 @@ package width_test
 import (
 	"fmt"
 
-	"github.com/xhit/width"
+	"github.com/xhit/text/width"
 )
 
 func ExampleTransformer_fold() {

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package main // import "github.com/xhit/collate/tools/colcmp"
+package main // import "github.com/xhit/text/collate/tools/colcmp"
 
 import (
 	"bytes"
@@ -18,7 +18,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/unicode/norm"
 )
 
 var (

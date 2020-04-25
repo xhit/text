@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 func TestUnique(t *testing.T) {

@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 type namer interface {

@@ -20,7 +20,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/xhit/internal/gen"
+	"github.com/xhit/text/internal/gen"
 )
 
 var outputFile = flag.String("output", "xml.go", "output file name")

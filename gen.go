@@ -24,9 +24,9 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/xhit/collate"
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/language"
+	"github.com/xhit/text/collate"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/language"
 )
 
 var (
@@ -233,7 +233,7 @@ func copyExported(p string) {
 	copyPackage(
 		filepath.Join("internal", "export", path.Base(p)),
 		filepath.Join("..", filepath.FromSlash(p[len("golang.org/x"):])),
-		"github.com/xhit/internal/export/"+path.Base(p),
+		"github.com/xhit/text/internal/export/"+path.Base(p),
 		p)
 }
 

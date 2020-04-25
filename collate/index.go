@@ -4,7 +4,7 @@
 
 package collate
 
-import "github.com/xhit/internal/colltab"
+import "github.com/xhit/text/internal/colltab"
 
 const blockSize = 64
 

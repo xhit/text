@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/xhit/feature/plural"
-	"github.com/xhit/internal/format"
-	"github.com/xhit/internal/number"
-	"github.com/xhit/language"
+	"github.com/xhit/text/feature/plural"
+	"github.com/xhit/text/internal/format"
+	"github.com/xhit/text/internal/number"
+	"github.com/xhit/text/language"
 )
 
 // A FormatFunc formates a number.

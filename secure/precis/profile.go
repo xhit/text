@@ -9,12 +9,12 @@ import (
 	"errors"
 	"unicode/utf8"
 
-	"github.com/xhit/cases"
-	"github.com/xhit/language"
-	"github.com/xhit/runes"
-	"github.com/xhit/secure/bidirule"
-	"github.com/xhit/transform"
-	"github.com/xhit/width"
+	"github.com/xhit/text/cases"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/runes"
+	"github.com/xhit/text/secure/bidirule"
+	"github.com/xhit/text/transform"
+	"github.com/xhit/text/width"
 )
 
 var (

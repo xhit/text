@@ -14,7 +14,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xhit/internal/language"
+	"github.com/xhit/text/internal/language"
 )
 
 // Compact indices:

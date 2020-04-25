@@ -14,8 +14,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/internal/ucd"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/internal/ucd"
 )
 
 var verbose = flag.Bool("verbose", false, "set to true to print the internal tables of matchers")

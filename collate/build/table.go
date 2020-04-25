@@ -9,7 +9,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/xhit/internal/colltab"
+	"github.com/xhit/text/internal/colltab"
 )
 
 // table is an intermediate structure that roughly resembles the table in collate.

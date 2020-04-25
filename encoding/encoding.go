@@ -8,7 +8,7 @@
 // Encoding implementations are provided in other packages, such as
 // golang.org/x/text/encoding/charmap and
 // golang.org/x/text/encoding/japanese.
-package encoding // import "github.com/xhit/encoding"
+package encoding // import "github.com/xhit/text/encoding"
 
 import (
 	"errors"
@@ -16,8 +16,8 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/xhit/encoding/internal/identifier"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/encoding/internal/identifier"
+	"github.com/xhit/text/transform"
 )
 
 // TODO:

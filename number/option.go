@@ -7,8 +7,8 @@ package number
 import (
 	"fmt"
 
-	"github.com/xhit/internal/number"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/number"
+	"github.com/xhit/text/language"
 )
 
 // An Option configures a Formatter.

@@ -17,8 +17,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/testtext"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/testtext"
 )
 
 var once sync.Once

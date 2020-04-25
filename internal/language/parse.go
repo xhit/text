@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/xhit/internal/tag"
+	"github.com/xhit/text/internal/tag"
 )
 
 // isAlpha returns true if the byte is not a digit.

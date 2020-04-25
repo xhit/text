@@ -7,9 +7,9 @@ package collate
 import (
 	"testing"
 
-	"github.com/xhit/collate/build"
-	"github.com/xhit/internal/colltab"
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/collate/build"
+	"github.com/xhit/text/internal/colltab"
+	"github.com/xhit/text/unicode/norm"
 )
 
 type ColElems []Weights

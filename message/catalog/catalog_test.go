@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/internal/catmsg"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/catmsg"
+	"github.com/xhit/text/language"
 )
 
 type entry struct {

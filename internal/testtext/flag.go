@@ -8,7 +8,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/xhit/internal/gen"
+	"github.com/xhit/text/internal/gen"
 )
 
 var long = flag.Bool("long", false,

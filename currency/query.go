@@ -8,7 +8,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 // QueryIter represents a set of Units. The default set includes all Units that

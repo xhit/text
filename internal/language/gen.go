@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/tag"
-	"github.com/xhit/unicode/cldr"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/tag"
+	"github.com/xhit/text/unicode/cldr"
 )
 
 var (
@@ -1501,7 +1501,7 @@ func main() {
 	w := gen.NewCodeWriter()
 	defer w.WriteGoFile("tables.go", "language")
 
-	fmt.Fprintln(w, `import "github.com/xhit/internal/tag"`)
+	fmt.Fprintln(w, `import "github.com/xhit/text/internal/tag"`)
 
 	b := newBuilder(w)
 	gen.WriteCLDRVersion(w)

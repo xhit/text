@@ -12,8 +12,8 @@ import (
 	"errors"
 	"unicode/utf8"
 
-	"github.com/xhit/transform"
-	"github.com/xhit/unicode/bidi"
+	"github.com/xhit/text/transform"
+	"github.com/xhit/text/unicode/bidi"
 )
 
 // This file contains an implementation of RFC 5893: Right-to-Left Scripts for

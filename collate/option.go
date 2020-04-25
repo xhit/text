@@ -7,9 +7,9 @@ package collate
 import (
 	"sort"
 
-	"github.com/xhit/internal/colltab"
-	"github.com/xhit/language"
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/internal/colltab"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/unicode/norm"
 )
 
 // newCollator creates a new collator with default options configured.

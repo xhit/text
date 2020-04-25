@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xhit/currency"
+	"github.com/xhit/text/currency"
 )
 
 func ExampleQuery() {

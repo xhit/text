@@ -2,7 +2,7 @@
 
 package test
 
-import "github.com/xhit/internal/cldrtree"
+import "github.com/xhit/text/internal/cldrtree"
 
 var tree = &cldrtree.Tree{locales, indices, buckets}
 

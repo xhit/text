@@ -5,8 +5,8 @@
 package cldrtree
 
 import (
-	"github.com/xhit/internal/language/compact"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/language/compact"
+	"github.com/xhit/text/language"
 )
 
 const (

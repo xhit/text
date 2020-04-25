@@ -7,9 +7,9 @@ package display_test
 import (
 	"fmt"
 
-	"github.com/xhit/language"
-	"github.com/xhit/language/display"
-	"github.com/xhit/message"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/language/display"
+	"github.com/xhit/text/message"
 )
 
 func ExampleFormatter() {

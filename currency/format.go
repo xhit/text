@@ -9,8 +9,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/xhit/internal/format"
-	"github.com/xhit/internal/language/compact"
+	"github.com/xhit/text/internal/format"
+	"github.com/xhit/text/internal/language/compact"
 )
 
 // Amount is an amount-currency unit pair.

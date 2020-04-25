@@ -9,7 +9,7 @@ package main
 import (
 	"unicode/utf8"
 
-	"github.com/xhit/internal/language/compact"
+	"github.com/xhit/text/internal/language/compact"
 )
 
 // A system identifies a CLDR numbering system.

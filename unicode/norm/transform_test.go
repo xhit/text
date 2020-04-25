@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xhit/transform"
+	"github.com/xhit/text/transform"
 )
 
 func TestTransform(t *testing.T) {

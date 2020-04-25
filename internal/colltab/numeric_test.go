@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/internal/testtext"
+	"github.com/xhit/text/internal/testtext"
 )
 
 const (

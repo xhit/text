@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xhit/internal/testtext"
+	"github.com/xhit/text/internal/testtext"
 )
 
 func TestLinking(t *testing.T) {
@@ -30,8 +30,8 @@ func getSize(t *testing.T, main string) int {
 
 const body = `package main
 import (
-	"github.com/xhit/language"
-	"github.com/xhit/language/display"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/language/display"
 )
 func main() {
 	%s

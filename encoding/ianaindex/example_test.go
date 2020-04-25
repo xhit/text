@@ -7,8 +7,8 @@ package ianaindex_test
 import (
 	"fmt"
 
-	"github.com/xhit/encoding/charmap"
-	"github.com/xhit/encoding/ianaindex"
+	"github.com/xhit/text/encoding/charmap"
+	"github.com/xhit/text/encoding/ianaindex"
 )
 
 func ExampleIndex() {

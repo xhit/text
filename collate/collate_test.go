@@ -8,8 +8,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/xhit/internal/colltab"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/colltab"
+	"github.com/xhit/text/language"
 )
 
 type weightsTest struct {

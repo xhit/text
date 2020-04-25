@@ -18,10 +18,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/triegen"
-	"github.com/xhit/internal/ucd"
-	"github.com/xhit/unicode/bidi"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/triegen"
+	"github.com/xhit/text/internal/ucd"
+	"github.com/xhit/text/unicode/bidi"
 )
 
 func main() {

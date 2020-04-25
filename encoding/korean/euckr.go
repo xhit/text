@@ -7,10 +7,10 @@ package korean
 import (
 	"unicode/utf8"
 
-	"github.com/xhit/encoding"
-	"github.com/xhit/encoding/internal"
-	"github.com/xhit/encoding/internal/identifier"
-	"github.com/xhit/transform"
+	"github.com/xhit/text/encoding"
+	"github.com/xhit/text/encoding/internal"
+	"github.com/xhit/text/encoding/internal/identifier"
+	"github.com/xhit/text/transform"
 )
 
 // All is a list of all defined encodings in this package.

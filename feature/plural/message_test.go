@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/internal/catmsg"
-	"github.com/xhit/language"
-	"github.com/xhit/message/catalog"
+	"github.com/xhit/text/internal/catmsg"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message/catalog"
 )
 
 func TestSelect(t *testing.T) {

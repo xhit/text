@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 var genFiles = flag.Bool("gen", false, "generate output files instead of comparing")

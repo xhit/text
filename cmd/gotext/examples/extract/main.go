@@ -7,8 +7,8 @@ package main
 //go:generate gotext update -out catalog.go
 
 import (
-	"github.com/xhit/language"
-	"github.com/xhit/message"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message"
 )
 
 func main() {

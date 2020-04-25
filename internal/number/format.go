@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 // TODO:

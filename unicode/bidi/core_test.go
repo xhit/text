@@ -12,10 +12,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/internal/ucd"
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/internal/ucd"
+	"github.com/xhit/text/unicode/norm"
 )
 
 var testLevels = flag.Bool("levels", false, "enable testing of levels")

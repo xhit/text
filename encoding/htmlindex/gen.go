@@ -13,7 +13,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/xhit/internal/gen"
+	"github.com/xhit/text/internal/gen"
 )
 
 type group struct {

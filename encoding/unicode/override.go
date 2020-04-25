@@ -5,7 +5,7 @@
 package unicode
 
 import (
-	"github.com/xhit/transform"
+	"github.com/xhit/text/transform"
 )
 
 // BOMOverride returns a new decoder transformer that is identical to fallback,

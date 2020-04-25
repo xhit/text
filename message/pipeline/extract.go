@@ -19,7 +19,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	fmtparser "github.com/xhit/internal/format"
+	fmtparser "github.com/xhit/text/internal/format"
 	"golang.org/x/tools/go/callgraph"
 	"golang.org/x/tools/go/callgraph/cha"
 	"golang.org/x/tools/go/loader"
@@ -101,7 +101,7 @@ func (x *extracter) globalData(pos token.Pos) *constData {
 }
 
 func (x *extracter) seedEndpoints() error {
-	pkgInfo := x.iprog.Package("github.com/xhit/message")
+	pkgInfo := x.iprog.Package("github.com/xhit/text/message")
 	if pkgInfo == nil {
 		return errors.New("pipeline: golang.org/x/text/message is not imported")
 	}

@@ -7,8 +7,8 @@ package currency
 import (
 	"testing"
 
-	"github.com/xhit/language"
-	"github.com/xhit/message"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message"
 )
 
 var (

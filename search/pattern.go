@@ -5,7 +5,7 @@
 package search
 
 import (
-	"github.com/xhit/internal/colltab"
+	"github.com/xhit/text/internal/colltab"
 )
 
 // TODO: handle variable primary weights?

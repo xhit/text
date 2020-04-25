@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package build // import "github.com/xhit/collate/build"
+package build // import "github.com/xhit/text/collate/build"
 
 import (
 	"fmt"
@@ -12,9 +12,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/xhit/internal/colltab"
-	"github.com/xhit/language"
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/internal/colltab"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/unicode/norm"
 )
 
 // TODO: optimizations:

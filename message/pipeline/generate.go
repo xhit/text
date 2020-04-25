@@ -14,12 +14,12 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/xhit/collate"
-	"github.com/xhit/feature/plural"
-	"github.com/xhit/internal"
-	"github.com/xhit/internal/catmsg"
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/language"
+	"github.com/xhit/text/collate"
+	"github.com/xhit/text/feature/plural"
+	"github.com/xhit/text/internal"
+	"github.com/xhit/text/internal/catmsg"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/language"
 	"golang.org/x/tools/go/loader"
 )
 
@@ -286,9 +286,9 @@ var cmpNumeric = collate.New(language.Und, collate.Numeric).CompareString
 
 var lookup = template.Must(template.New("gen").Parse(`
 import (
-	"github.com/xhit/language"
-	"github.com/xhit/message"
-	"github.com/xhit/message/catalog"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message"
+	"github.com/xhit/text/message/catalog"
 )
 
 type dictionary struct {

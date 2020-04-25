@@ -12,7 +12,7 @@ package internal
 // the cldr package.
 
 import (
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 // TODO: consider if (some of the) matching algorithm needs to be public after

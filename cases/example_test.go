@@ -7,8 +7,8 @@ package cases_test
 import (
 	"fmt"
 
-	"github.com/xhit/cases"
-	"github.com/xhit/language"
+	"github.com/xhit/text/cases"
+	"github.com/xhit/text/language"
 )
 
 func Example() {

@@ -4,7 +4,7 @@
 
 package language
 
-import "github.com/xhit/internal/language/compact"
+import "github.com/xhit/text/internal/language/compact"
 
 // TODO: Various sets of commonly use tags and regions.
 

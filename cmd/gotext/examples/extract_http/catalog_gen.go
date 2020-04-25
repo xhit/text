@@ -3,9 +3,9 @@
 package main
 
 import (
-	"github.com/xhit/language"
-	"github.com/xhit/message"
-	"github.com/xhit/message/catalog"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/message"
+	"github.com/xhit/text/message/catalog"
 )
 
 type dictionary struct {

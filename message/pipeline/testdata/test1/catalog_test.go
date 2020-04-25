@@ -8,7 +8,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/xhit/message"
+	"github.com/xhit/text/message"
 )
 
 func TestCatalog(t *testing.T) {

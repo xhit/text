@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xhit/language"
+	"github.com/xhit/text/language"
 )
 
 func TestQuery(t *testing.T) {

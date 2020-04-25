@@ -8,9 +8,9 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/xhit/internal/gen"
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/internal/ucd"
+	"github.com/xhit/text/internal/gen"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/internal/ucd"
 )
 
 // TestScripts tests for all runes whether they are included in the correct

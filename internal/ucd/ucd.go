@@ -7,7 +7,7 @@
 // https://www.unicode.org/Public/UCD/latest/ucd/ for example files.
 //
 // It currently does not support substitutions of missing fields.
-package ucd // import "github.com/xhit/internal/ucd"
+package ucd // import "github.com/xhit/text/internal/ucd"
 
 import (
 	"bufio"

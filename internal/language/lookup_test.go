@@ -7,7 +7,7 @@ package language
 import (
 	"testing"
 
-	"github.com/xhit/internal/tag"
+	"github.com/xhit/text/internal/tag"
 )
 
 func b(s string) []byte {

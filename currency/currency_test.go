@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xhit/internal/testtext"
-	"github.com/xhit/language"
+	"github.com/xhit/text/internal/testtext"
+	"github.com/xhit/text/language"
 )
 
 var (
@@ -141,7 +141,7 @@ func TestKindRounding(t *testing.T) {
 const body = `package main
 import (
 	"fmt"
-	"github.com/xhit/currency"
+	"github.com/xhit/text/currency"
 )
 func main() {
 	%s

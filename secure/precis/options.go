@@ -5,11 +5,11 @@
 package precis
 
 import (
-	"github.com/xhit/cases"
-	"github.com/xhit/language"
-	"github.com/xhit/runes"
-	"github.com/xhit/transform"
-	"github.com/xhit/unicode/norm"
+	"github.com/xhit/text/cases"
+	"github.com/xhit/text/language"
+	"github.com/xhit/text/runes"
+	"github.com/xhit/text/transform"
+	"github.com/xhit/text/unicode/norm"
 )
 
 // An Option is used to define the behavior and rules of a Profile.
