@@ -20,6 +20,9 @@ import (
 // These encodings vary only in the way clients should interpret them. Their
 // coded character set is identical and a single implementation can be shared.
 var (
+	// EmptyUnsupportedRune is used for avoid "encoding: rune not supported by encoding." error and skip the character
+	EmptyUnsupportedRune bool
+
 	// ISO8859_6E is the ISO 8859-6E encoding.
 	ISO8859_6E encoding.Encoding = &iso8859_6E
 
@@ -203,6 +206,10 @@ loop:
 		// Binary search in [low, high) for that rune in the m.charmap.encode table.
 		for low, high := int(m.charmap.low), 0x100; ; {
 			if low >= high {
+				if EmptyUnsupportedRune {
+					nSrc += size
+					continue loop
+				}
 				err = internal.RepertoireError(m.charmap.replacement)
 				break loop
 			}
