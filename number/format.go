@@ -14,7 +14,7 @@ import (
 	"github.com/xhit/text/language"
 )
 
-// A FormatFunc formates a number.
+// A FormatFunc formats a number.
 type FormatFunc func(x interface{}, opts ...Option) Formatter
 
 // NewFormat creates a FormatFunc based on another FormatFunc and new options.
